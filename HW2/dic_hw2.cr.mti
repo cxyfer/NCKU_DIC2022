@@ -1,0 +1,15 @@
+{D:/OneDrive - NCKU/Course/NCKU/110/1102_DIC/HW/HW2/TLS.v} {1 {vlog -work work {D:/OneDrive - NCKU/Course/NCKU/110/1102_DIC/HW/HW2/TLS.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module TLS
+
+Top level modules:
+	TLS
+
+} {} {}} {D:/OneDrive - NCKU/Course/NCKU/110/1102_DIC/HW/HW2/TLS_tb.sv} {1 {vlog -work work -sv {D:/OneDrive - NCKU/Course/NCKU/110/1102_DIC/HW/HW2/TLS_tb.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module testfixture
+
+Top level modules:
+	testfixture
+
+} {} {}}
