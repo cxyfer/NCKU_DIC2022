@@ -1,0 +1,51 @@
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Warning (10230): Verilog HDL assignment warning at LZ77_Encoder.v(148): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at LZ77_Encoder.v(158): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at LZ77_Encoder.v(168): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at LZ77_Encoder.v(178): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at LZ77_Encoder.v(188): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at LZ77_Encoder.v(198): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at LZ77_Encoder.v(208): truncated value with size 32 to match size of target (4)
+Warning (10027): Verilog HDL or VHDL warning at the LZ77_Encoder.v(217): index expression is not wide enough to address all of the elements in the array
+Warning (10240): Verilog HDL Always Construct warning at LZ77_Encoder.v(131): inferring latch(es) for variable "curMatch", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at LZ77_Encoder.v(131): inferring latch(es) for variable "curOffset", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at LZ77_Encoder.v(131): inferring latch(es) for variable "i", which holds its previous value in one or more paths through the always construct
+Warning (13012): Latch curOffset[0] has unsafe behavior
+	Warning (13013): Ports D and ENA on the latch are fed by the same signal State.MATCH1
+Warning (13012): Latch curOffset[1] has unsafe behavior
+	Warning (13013): Ports D and ENA on the latch are fed by the same signal State.MATCH1
+Warning (13012): Latch curOffset[2] has unsafe behavior
+	Warning (13013): Ports D and ENA on the latch are fed by the same signal State.MATCH1
+Warning (13012): Latch curOffset[3] has unsafe behavior
+	Warning (13013): Ports D and ENA on the latch are fed by the same signal State.MATCH1
+Warning (13012): Latch curMatch[0] has unsafe behavior
+	Warning (13013): Ports D and ENA on the latch are fed by the same signal State.MATCH7
+Warning (13012): Latch curMatch[1] has unsafe behavior
+	Warning (13013): Ports D and ENA on the latch are fed by the same signal State.MATCH7
+Warning (13012): Latch curMatch[2] has unsafe behavior
+	Warning (13013): Ports D and ENA on the latch are fed by the same signal State.MATCH7
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Warning (292013): Feature LogicLock is only available with a valid subscription license. You can purchase a software subscription to gain full access to this feature.
+Warning (335093): TimeQuest Timing Analyzer is analyzing 7 combinational loops as latches.
+Warning (306006): Found 18 output pins without output pin load capacitance assignment
+	Info (306007): Pin "valid" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+	Info (306007): Pin "encode" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+	Info (306007): Pin "finish" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+	Info (306007): Pin "offset[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+	Info (306007): Pin "offset[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+	Info (306007): Pin "offset[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+	Info (306007): Pin "offset[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+	Info (306007): Pin "match_len[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+	Info (306007): Pin "match_len[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+	Info (306007): Pin "match_len[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+	Info (306007): Pin "char_nxt[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+	Info (306007): Pin "char_nxt[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+	Info (306007): Pin "char_nxt[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+	Info (306007): Pin "char_nxt[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+	Info (306007): Pin "char_nxt[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+	Info (306007): Pin "char_nxt[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+	Info (306007): Pin "char_nxt[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+	Info (306007): Pin "char_nxt[7]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+Warning (169174): The Reserve All Unused Pins setting has not been specified, and will default to 'As output driving ground'.
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Warning (335093): TimeQuest Timing Analyzer is analyzing 7 combinational loops as latches.

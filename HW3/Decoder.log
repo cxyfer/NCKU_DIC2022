@@ -1,0 +1,56 @@
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Warning (10240): Verilog HDL Always Construct warning at LZ77_Decoder.v(21): inferring latch(es) for variable "encode", which holds its previous value in one or more paths through the always construct
+Warning (10235): Verilog HDL Always Construct warning at LZ77_Decoder.v(52): variable "code_len" is read inside the Always Construct but isn't in the Always Construct's Event Control
+Warning (10235): Verilog HDL Always Construct warning at LZ77_Decoder.v(52): variable "Count" is read inside the Always Construct but isn't in the Always Construct's Event Control
+Warning (10235): Verilog HDL Always Construct warning at LZ77_Decoder.v(54): variable "chardata" is read inside the Always Construct but isn't in the Always Construct's Event Control
+Warning (10235): Verilog HDL Always Construct warning at LZ77_Decoder.v(57): variable "Count" is read inside the Always Construct but isn't in the Always Construct's Event Control
+Warning (10235): Verilog HDL Always Construct warning at LZ77_Decoder.v(58): variable "code_pos" is read inside the Always Construct but isn't in the Always Construct's Event Control
+Warning (13024): Output pins are stuck at VCC or GND
+	Warning (13410): Pin "encode" is stuck at GND
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Warning (292013): Feature LogicLock is only available with a valid subscription license. You can purchase a software subscription to gain full access to this feature.
+Critical Warning (169085): No exact pin location assignment(s) for 27 pins of 27 total pins
+	Info (169086): Pin encode not assigned to an exact location on the device
+	Info (169086): Pin finish not assigned to an exact location on the device
+	Info (169086): Pin char_nxt[0] not assigned to an exact location on the device
+	Info (169086): Pin char_nxt[1] not assigned to an exact location on the device
+	Info (169086): Pin char_nxt[2] not assigned to an exact location on the device
+	Info (169086): Pin char_nxt[3] not assigned to an exact location on the device
+	Info (169086): Pin char_nxt[4] not assigned to an exact location on the device
+	Info (169086): Pin char_nxt[5] not assigned to an exact location on the device
+	Info (169086): Pin char_nxt[6] not assigned to an exact location on the device
+	Info (169086): Pin char_nxt[7] not assigned to an exact location on the device
+	Info (169086): Pin code_len[2] not assigned to an exact location on the device
+	Info (169086): Pin code_len[0] not assigned to an exact location on the device
+	Info (169086): Pin code_len[1] not assigned to an exact location on the device
+	Info (169086): Pin code_pos[3] not assigned to an exact location on the device
+	Info (169086): Pin code_pos[0] not assigned to an exact location on the device
+	Info (169086): Pin code_pos[1] not assigned to an exact location on the device
+	Info (169086): Pin code_pos[2] not assigned to an exact location on the device
+	Info (169086): Pin chardata[0] not assigned to an exact location on the device
+	Info (169086): Pin chardata[1] not assigned to an exact location on the device
+	Info (169086): Pin chardata[2] not assigned to an exact location on the device
+	Info (169086): Pin chardata[3] not assigned to an exact location on the device
+	Info (169086): Pin chardata[4] not assigned to an exact location on the device
+	Info (169086): Pin chardata[5] not assigned to an exact location on the device
+	Info (169086): Pin chardata[6] not assigned to an exact location on the device
+	Info (169086): Pin chardata[7] not assigned to an exact location on the device
+	Info (169086): Pin clk not assigned to an exact location on the device
+	Info (169086): Pin reset not assigned to an exact location on the device
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'LZ77_Decoder.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Warning (306006): Found 10 output pins without output pin load capacitance assignment
+	Info (306007): Pin "encode" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+	Info (306007): Pin "finish" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+	Info (306007): Pin "char_nxt[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+	Info (306007): Pin "char_nxt[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+	Info (306007): Pin "char_nxt[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+	Info (306007): Pin "char_nxt[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+	Info (306007): Pin "char_nxt[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+	Info (306007): Pin "char_nxt[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+	Info (306007): Pin "char_nxt[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+	Info (306007): Pin "char_nxt[7]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+Warning (169174): The Reserve All Unused Pins setting has not been specified, and will default to 'As output driving ground'.
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'LZ77_Decoder.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Critical Warning (332148): Timing requirements not met
+Critical Warning (332148): Timing requirements not met
