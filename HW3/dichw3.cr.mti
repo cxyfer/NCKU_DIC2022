@@ -1,0 +1,29 @@
+{D:/OneDrive - NCKU/Course/NCKU/110/1102_DIC/HW/HW3/tb_Encoder.sv} {1 {vlog -work work -sv {D:/OneDrive - NCKU/Course/NCKU/110/1102_DIC/HW/HW3/tb_Encoder.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module testfixture_encoder
+
+Top level modules:
+	testfixture_encoder
+
+} {} {}} {D:/OneDrive - NCKU/Course/NCKU/110/1102_DIC/HW/HW3/LZ77_Decoder.v} {1 {vlog -work work {D:/OneDrive - NCKU/Course/NCKU/110/1102_DIC/HW/HW3/LZ77_Decoder.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module LZ77_Decoder
+
+Top level modules:
+	LZ77_Decoder
+
+} {} {}} {D:/OneDrive - NCKU/Course/NCKU/110/1102_DIC/HW/HW3/LZ77_Encoder.vo} {1 {vlog -work work {D:/OneDrive - NCKU/Course/NCKU/110/1102_DIC/HW/HW3/LZ77_Encoder.vo}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module LZ77_Encoder
+
+Top level modules:
+	LZ77_Encoder
+
+} {} {}} {D:/OneDrive - NCKU/Course/NCKU/110/1102_DIC/HW/HW3/tb_Decoder.sv} {1 {vlog -work work -sv {D:/OneDrive - NCKU/Course/NCKU/110/1102_DIC/HW/HW3/tb_Decoder.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module testfixture_decoder
+
+Top level modules:
+	testfixture_decoder
+
+} {} {}}
