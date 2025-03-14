@@ -1,0 +1,31 @@
+module ALU_1bit (
+    input  a;
+    input  b;
+    input  less;
+    input  Ainvert;
+    input  Binvert;
+    input  c_in;
+    input [1:0] op;
+	output result;
+	output c_out;
+	output set;
+	output overflow;
+);
+
+always @(*)
+begin
+  case(op)
+    2'b00: begin //And & Nor
+		if(Ainvert==1'b1) a = ~a;
+		if(Binvert==1'b1) b = ~b;
+		result = a & b ;
+    end
+    2'b01: begin //Or & Nand
+    end
+    2'b10: begin //Add & Sub
+    end
+    2'b11: begin //SLT
+    end
+  endcase
+
+endmodule
