@@ -1,0 +1,30 @@
+{D:/OneDrive - NCKU/Course/NCKU/110/1102_DIC/HW/HW1/ALU_tb.v} {1 {vlog -work work {D:/OneDrive - NCKU/Course/NCKU/110/1102_DIC/HW/HW1/ALU_tb.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ALU_tb
+
+Top level modules:
+	ALU_tb
+
+} {} {}} {D:/OneDrive - NCKU/Course/NCKU/110/1102_DIC/HW/HW1/FA.v} {1 {vlog -work work {D:/OneDrive - NCKU/Course/NCKU/110/1102_DIC/HW/HW1/FA.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module HA
+-- Compiling module FA
+
+Top level modules:
+	FA
+
+} {} {}} {D:/OneDrive - NCKU/Course/NCKU/110/1102_DIC/HW/HW1/HA.v} {1 {vlog -work work {D:/OneDrive - NCKU/Course/NCKU/110/1102_DIC/HW/HW1/HA.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module HA
+
+Top level modules:
+	HA
+
+} {} {}} {D:/OneDrive - NCKU/Course/NCKU/110/1102_DIC/HW/HW1/ALU_1bit.v} {1 {vlog -work work {D:\OneDrive - NCKU\Course\NCKU\110\1102_DIC\HW\HW1\ALU_1bit.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ALU_1bit
+
+Top level modules:
+	ALU_1bit
+
+} {} {}}
